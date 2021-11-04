@@ -1,0 +1,13 @@
+body {
+  --twitter-color: brown;
+  --twitter-background: #e6ecf0;
+}
+/*kutoka max-width kuenda chini ni style ya kufix sidebars,feed and widget to center kama ile ya twiter hivi*/
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
